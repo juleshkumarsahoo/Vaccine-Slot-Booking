@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Slot Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="ibody">
+
+    <div class="imgg">
+        <span class="imgNav"><a href="admin.html" target="_blank ">
+                <img src="nettantrapic.png" height="80vh" width="120vh" alt="netTantra_img"></a>
+        </span>
+    </div>
+
+    <div class="form">
+        <form onsubmit="return mySubmitFunction(event)">
+        <p class="heading">Vaccine Slot Booking</p>
+        <label>Name : </label> &emsp; <input type="text" id="fname" placeholder="Enter name"><br>
+        <label>Email :</label>&emsp;&nbsp;&nbsp;<input type="email" id="mail"><br>
+        <label>Age : </label>&emsp;&emsp;<input type="number" id="age" min="1" ><br>
+        <label>Phone no :</label>&nbsp;<input type="number" id="pno"><br>
+        <label>Aadhar no :</label><input type="number" id="ano"><br>
+        <label>Date : </label>&emsp;&emsp;<input type="date" id="date"><br>
+        <label>Adress :</label>&emsp;&nbsp;<textarea name="" id="adress" cols="15" rows="2"></textarea><br>
+        <Button class="btn" id="btn" onclick="userdatasave()">Submit</Button>
+        </form>
+        <pre id="hi">User details has been Submitted,
+  click logo to check details</pre>
+
+        <div class="futer">
+            <p class="ftr">Copyright © 2022 NetTantra Technologies. All rights reserved.</p>
+        </div>
+        <script src="userScript.js"></script>
+        
+</body>
+
+</html>
